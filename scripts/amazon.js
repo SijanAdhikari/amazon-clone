@@ -1,3 +1,10 @@
+
+import {cart} from '../data/cart.js';
+
+
+//import {cart as myCart} from '../data/cart.js';
+
+//const cart=[];  //if we declare a variable same as we have imported then again naming conflict occurs so to avoid this above
 let productsHTML='';
 
 products.forEach((product)=>{
